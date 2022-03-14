@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(50, 50, 100);
+    color: white;
+}
+
+.weather-display, .city-form {
+    background-color: rgba(255, 255, 255, 0.3);
+
+    margin-bottom: 1rem;
+    padding: 1rem;
+
+    border-radius: 5px;
+}
+
+#city-name, form > button {
+    padding: .25rem;
+}
+
+#city-name {
+    margin-right: .25rem;
+    border-radius: 5px;
+
+    border: none;
+    outline: none;
+}
+
+form > button {
+    background-color: white;
+    
+    border-radius: 5px;
+
+    border: none;
+    outline: none;
+}
